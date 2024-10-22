@@ -66,6 +66,11 @@ class Rectangle:
         self.top_left = top_left
         self.bottom_right = bottom_right
 
+    def center(self):
+        center_x = (self.top_left.x + self.bottom_right.x) / 2
+        center_y = (self.top_left.y + self.bottom_right.y) / 2
+        return Point(center_x, center_y)
+
 
     # Provide a developer-friendly string representation of the object.
     # input: Rectangle for which a string representation is desired. 
