@@ -111,7 +111,7 @@ class TestCases(unittest.TestCase):
 
 
     # Part 7
-    def test_circle_bound_square(self):
+    def test_circle_bound_rectangle(self):
         rectangle = Rectangle(Point(0, 0), Point(3, 8))
         circle = hw1.circle_bound(rectangle)
 
